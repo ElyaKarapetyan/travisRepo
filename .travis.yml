@@ -3,8 +3,6 @@
     "dist": "trusty",
     "group": "stable",
     "python": "2.7",
-    "script": [
-        "python -m unittest testJson"
-    ],
+    "script": ["python -m unittest testJson"],
 }
 
