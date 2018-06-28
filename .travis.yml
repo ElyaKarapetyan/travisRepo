@@ -1,6 +1,10 @@
 {
-    "language": "python"
-    "rvm":"2.7.14"
-    "script": ["python -m unittest testJson"]
+    "os": "linux",
+    "dist": "trusty",
+    "group": "stable",
+    "python": "2.7",
+    "script": [
+        "python -m unittest testJson"
+    ],
 }
 
