@@ -51,7 +51,7 @@ def getKeysAndValue(jsonString, keys, values):
     keysArr = keysString.split(':')                           # split(":') create new list without <:> symbol
     array = disconnectArrayFromValuesString(valuesString)
     if 0 != len(array):
-        valuesString = valuesString.replace(array, '0')           # write 0 insrend of array in value string
+        valuesString = valuesString.replace(array, '0')        
         valuesString += ','
     valuesArr = valuesString.split(',')
     keysArr = keysArr[:-1]
