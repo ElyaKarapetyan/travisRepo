@@ -1,4 +1,6 @@
-language: python 
+language: python
+rvm:
+    - 2.7.14 
 jobs:
     script: python -m unittest testJson
 
