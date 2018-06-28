@@ -1,3 +1,3 @@
-language: python
+language: bash 
 jobs:
-    script: python test.py
+    script: echo "hello"
